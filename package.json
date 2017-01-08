@@ -1,0 +1,20 @@
+{
+  "name": "dash-doorbell",
+  "version": "1.0.0",
+  "description": "amazon dash button doorbell",
+  "main": "main.js",
+  "scripts": {
+    "start":"sudo node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazon",
+    "dash",
+    "doorbell"
+  ],
+  "author": "Sridharan Gopal",
+  "license": "ISC",
+  "dependencies": {
+    "node-dash-button": "^0.6.1"
+  }
+}
